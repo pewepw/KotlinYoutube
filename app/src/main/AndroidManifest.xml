@@ -25,7 +25,11 @@
             android:launchMode="singleTop">
             <meta-data android:name="android.support.PARENT_ACTIVITY"
                 android:value=".MainActivity"/>
+        </activity>
 
+        <activity android:name=".CourseLessonActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CourseDetailActivity"/>
         </activity>
     </application>
 
