@@ -41,7 +41,7 @@ class MainAdapter(val homeFeed: HomeFeed): RecyclerView.Adapter<CustomViewHolder
 
 }
 
-//seem like didSelectRowAtIndexPath Delegate
+//seem like UICollectionViewCell.swift with didSelectRowAtIndexPath Delegate
 class CustomViewHolder(val view: View, var video: Video? = null) : RecyclerView.ViewHolder(view) {
     companion object {
         val VIDEO_TITLE_KEY = "VIDEO_TITLE"

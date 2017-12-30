@@ -53,7 +53,7 @@ class CourseDetailActivity: AppCompatActivity() {
             }
 
             override fun onFailure(call: Call?, e: IOException?) {
-
+                
             }
         })
     }
